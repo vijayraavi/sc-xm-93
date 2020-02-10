@@ -405,41 +405,41 @@
 
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-si-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-si-asp')]"
     },
     "cmHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-cm-asp')]"
     },
     "cdHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-glo-cd-asp')]"
     },
     "prcHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-prc-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-prc-asp')]"
     },
     "repHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-rep-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-rep-asp')]"
     },
     "xcBasicHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-xc-basic-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-xc-basic-asp')]"
     },
     "xcResourceIntensiveHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-xc-resourceintensive-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-xc-resourceintensive-asp')]"
     },
     "exmDdsHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-exm-dds-hp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-exm-dds-asp')]"
     },
 
     "siWebAppName": {
@@ -455,7 +455,7 @@
     "cdWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-glo-cd')]"
     },
     "prcWebAppName": {
       "type": "string",
