@@ -261,7 +261,7 @@
             "SkuCapacity": 1
           },
           "cmHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "cmHostingPlanIsolated": {
@@ -269,7 +269,7 @@
             "SkuCapacity": 1
           },
           "cdHostingPlan": {
-            "SkuName": "S2",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "cdHostingPlanIsolated": {
@@ -277,7 +277,7 @@
             "SkuCapacity": 1
           },
           "prcHostingPlan": {
-            "SkuName": "S1",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "prcHostingPlanIsolated": {
@@ -285,7 +285,7 @@
             "SkuCapacity": 1
           },
           "repHostingPlan": {
-            "SkuName": "S1",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "repHostingPlanIsolated": {
@@ -447,7 +447,7 @@
             "SkuCapacity": 1
           },
           "cmHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "cmHostingPlanIsolated": {
@@ -455,7 +455,7 @@
             "SkuCapacity": 1
           },
           "cdHostingPlan": {
-            "SkuName": "S2",
+            "SkuName": "P1V2",
             "SkuCapacity": 3
           },
           "cdHostingPlanIsolated": {
@@ -540,7 +540,7 @@
             "SkuCapacity": 1
           },
           "cmHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "cmHostingPlanIsolated": {
@@ -548,7 +548,7 @@
             "SkuCapacity": 1
           },
           "cdHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 4
           },
           "cdHostingPlanIsolated": {
@@ -633,7 +633,7 @@
             "SkuCapacity": 1
           },
           "cmHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "cmHostingPlanIsolated": {
@@ -641,7 +641,7 @@
             "SkuCapacity": 1
           },
           "cdHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 8
           },
           "cdHostingPlanIsolated": {
