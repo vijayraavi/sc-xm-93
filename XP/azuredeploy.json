@@ -386,7 +386,7 @@
     },
     "applicationInsightsLocation": {
       "type": "string",
-      "defaultValue": "Central India"
+      "defaultValue": "Japan East"
     },
     "storeSitecoreCountersInApplicationInsights": {
       "type": "bool",
