@@ -460,7 +460,7 @@
     "cdWebAppName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-glo-cd')]"
     },
     "prcWebAppName": {
       "type": "string",

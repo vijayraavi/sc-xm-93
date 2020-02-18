@@ -73,7 +73,7 @@
     "westlocation": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "West India"
+      "defaultValue": "[resourceGroup().location]"
     },
     "sitecoreSKU": {
       "type": "string",
@@ -359,7 +359,7 @@
             "SkuCapacity": 1
           },
           "cmHostingPlan": {
-            "SkuName": "S3",
+            "SkuName": "P1V2",
             "SkuCapacity": 1
           },
           "cmHostingPlanIsolated": {
@@ -367,7 +367,7 @@
             "SkuCapacity": 1
           },
           "cdHostingPlan": {
-            "SkuName": "S2",
+            "SkuName": "P1V2",
             "SkuCapacity": 2
           },
           "cdHostingPlanIsolated": {

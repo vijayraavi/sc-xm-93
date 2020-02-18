@@ -154,7 +154,7 @@
       "type": "Microsoft.Web/sites",
       "name": "[variables('maRepWebAppNameTidy')]",
       "apiVersion": "[variables('webApiVersion')]",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "properties": {
         "clientCertEnabled": true,
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('xcBasicHostingPlanNameTidy'))]",
@@ -188,7 +188,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').maOps]"

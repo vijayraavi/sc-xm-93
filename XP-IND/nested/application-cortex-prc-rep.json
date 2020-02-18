@@ -207,7 +207,7 @@
     {
       "name": "[concat(variables('cortexReportingWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "packageUri": "[parameters('cortexReportingMsDeployPackageUrl')]",
@@ -247,7 +247,7 @@
     {
       "name": "[concat(variables('cortexProcessingWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "packageUri": "[parameters('cortexProcessingMsDeployPackageUrl')]",

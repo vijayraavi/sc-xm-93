@@ -294,7 +294,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').cortexProcessing]"
@@ -316,7 +316,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').cortexReporting]"

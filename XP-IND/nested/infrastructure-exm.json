@@ -124,7 +124,7 @@
         "name": "[variables('exmDdsHostingPlanNameTidy')]",
         "hostingEnvironmentProfile": "[if(variables('useAse'), variables('aseHostingEnvironmentProfile'), '')]"
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').dds]"
@@ -145,7 +145,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', variables('exmDdsHostingPlanNameTidy'))]"
       ],

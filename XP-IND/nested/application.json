@@ -630,7 +630,7 @@
     {
       "name": "[concat(variables('prcWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "addOnPackages": [
@@ -672,7 +672,7 @@
     {
       "name": "[concat(variables('repWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "addOnPackages": [

@@ -338,7 +338,7 @@
         "name": "[variables('xcBasicHostingPlanNameTidy')]",
         "hostingEnvironmentProfile": "[if(variables('useAse'), variables('aseHostingEnvironmentProfile'), '')]"
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').xc]"
@@ -356,7 +356,7 @@
         "name": "[variables('xcResourceIntensiveHostingPlanNameTidy')]",
         "hostingEnvironmentProfile": "[if(variables('useAse'), variables('aseHostingEnvironmentProfile'), '')]"
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').xc]"
@@ -381,7 +381,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', variables('xcResourceIntensiveHostingPlanNameTidy'))]"
       ],
@@ -435,7 +435,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', variables('xcResourceIntensiveHostingPlanNameTidy'))]"
       ],
@@ -547,7 +547,7 @@
           ]
         }
       },
-      "location": "[parameters('location')]",
+      "location": "West India",
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', variables('xcBasicHostingPlanNameTidy'))]"
       ],

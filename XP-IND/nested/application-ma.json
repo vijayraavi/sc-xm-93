@@ -211,7 +211,7 @@
     {
       "name": "[concat(variables('maOpsWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "packageUri": "[parameters('maOpsMsDeployPackageUrl')]",
@@ -258,7 +258,7 @@
     {
       "name": "[concat(variables('maRepWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "packageUri": "[parameters('maRepMsDeployPackageUrl')]",

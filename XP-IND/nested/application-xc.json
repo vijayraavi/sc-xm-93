@@ -248,7 +248,7 @@
     {
       "name": "[concat(variables('xcRefDataWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "packageUri": "[parameters('xcRefDataMsDeployPackageUrl')]",
@@ -274,7 +274,7 @@
     {
       "name": "[concat(variables('xcCollectWebAppNameTidy'), '/', 'MSDeploy')]",
       "type": "Microsoft.Web/sites/extensions",
-      "location": "[parameters('location')]",
+      "location": "West India",
       "apiVersion": "[variables('webApiVersion')]",
       "properties": {
         "packageUri": "[parameters('xcCollectMsDeployPackageUrl')]",
