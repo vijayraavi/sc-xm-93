@@ -70,6 +70,11 @@
       "minLength": 1,
       "defaultValue": "[resourceGroup().location]"
     },
+    "westlocation": {
+      "type": "string",
+      "minLength": 1,
+      "defaultValue": "[resourceGroup().location]"
+    },
     "sitecoreSKU": {
       "type": "string",
       "allowedValues": [ "Extra Small", "Small", "Medium", "Large", "Extra Large" ],
