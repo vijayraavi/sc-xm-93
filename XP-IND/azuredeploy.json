@@ -57,6 +57,11 @@
       "minLength": 1,
       "defaultValue": "[resourceGroup().location]"
     },
+    "westlocation": {
+      "type": "string",
+      "minLength": 1,
+      "defaultValue": "[resourceGroup().location]"
+    },
 
     "sitecoreAdminPassword": {
       "type": "securestring",
