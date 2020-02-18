@@ -73,7 +73,7 @@
     "westlocation": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[resourceGroup().location]"
+      "defaultValue": "West India"
     },
     "sitecoreSKU": {
       "type": "string",
