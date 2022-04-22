@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "variables": {
@@ -410,41 +410,41 @@
 
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-si-asp')]"
     },
     "cmHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-cm-asp')]"
     },
     "cdHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-cd-asp')]"
     },
     "prcHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-prc-asp')]"
     },
     "repHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-rep-asp')]"
     },
     "xcBasicHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-xc-basic-asp')]"
     },
     "xcResourceIntensiveHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-xc-resourceintensive-asp')]"
     },
     "exmDdsHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-exm-dds-asp')]"
     },
 
     "siWebAppName": {
