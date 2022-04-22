@@ -410,41 +410,41 @@
 
     "siHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-si-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "cmHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-cm-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "cdHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-cd-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "prcHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-prc-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "repHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-rep-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "xcBasicHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-xc-basic-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "xcResourceIntensiveHostingPlanName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "[concat(parameters('deploymentId'), '-xc-resourceintensive-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
     "exmDdsHostingPlanName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('deploymentId'), '-exm-dds-asp')]"
+      "defaultValue": "[concat(parameters('deploymentId'), '-asp')]"
     },
 
     "siWebAppName": {
